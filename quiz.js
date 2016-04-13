@@ -55,5 +55,5 @@ if (correct == 5) {
 }
 
 if (correct == 6) {
-    document.write("WOW! 100% congratulations you get nothing :) ");
+    document.write("WOW! 100% congratulations you get nothing ");
 }
