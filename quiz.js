@@ -1,22 +1,22 @@
-/ variables
+// variables
 var correct = 0;
 
 // Questions
 var answer1 = prompt("How many states are there in the United States?");
 
-if ( answer1.toUpperCase() === '50' ) {
+if ( answer1 == '50' ) {
  correct += 1;
 }
 
 var answer2 = prompt("How many planets are there in the solar system?");
 
-if ( answer2.toUpperCase() === '9' ) {
+if ( answer2 == '9' ) {
  correct += 1;
 }
 
 var answer3 = prompt("How many continents are there?");
 
-if ( answer3.toUpperCase() === '7' ) {
+if ( answer3 == '7' ) {
  correct += 1;
 }
 
