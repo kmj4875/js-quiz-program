@@ -13,6 +13,7 @@ if ( answerInput.toUpperCase() === realAnswer ) {
 
 question("asking some question", "TEST");
 question("another question here", "ANSWER");
+question("a final question for the demo", "DEMO");
 
 // var answer2 = prompt("Name a programming language that's also a snake");
 // if ( answer2.toUpperCase() === 'PYTHON' ) {
