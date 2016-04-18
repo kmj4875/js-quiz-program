@@ -1,9 +1,11 @@
 // quiz begins, no answers correct
 var correct = 0;
+var totalAsked = 0;
 
 // ask questions
 function question(questionText, realAnswer){
  var answer1 = prompt(questionText);
+ totalAsked += 1;
 if ( answerInput.toUpperCase() === realAnswer ) {
  correct += 1; 
 }
